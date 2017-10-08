@@ -3,7 +3,7 @@
 # Prueba técnica
 
 Este proyecto tiene una integración React JS / Redux JS para fines de demostración en skills en las tecnologías utilizadas.
-La demostración las puedes consultar en el siguiente enlace [DEMO](http://prueba.crisostomo.soy)
+La demostración la puedes consultar en el siguiente enlace [DEMO](http://prueba.crisostomo.soy)
 
 
 ## Instalar / clonar proyecto
@@ -40,6 +40,8 @@ Los servicios están restringidos para realizar peticiones externas a su aplicac
 Para ello y poder probar la aplicación debes instalar el siguiente plugin de el navegador Chrome.
 
 https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi
+
+La api tiene no inestables, es deicr, en ocasiones responden con error. Cuando notes que no recibes información sólo actualiza la página.
 
 ## Construir proyecto en producción
 

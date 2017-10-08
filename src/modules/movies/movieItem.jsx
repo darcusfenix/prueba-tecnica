@@ -17,7 +17,7 @@ const movieItem = props => {
                 subtitle={movie.description}
             >
                 <div className="movies-gallery-container">
-                    <img src={movie.image_large} />
+                    <img src={movie.imageLarge} />
                 </div>
             </GridTile>
         </div>

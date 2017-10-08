@@ -6,9 +6,10 @@ import { browserHistory } from "react-router";
 import { connect } from "react-redux";
 import MovieItem from "./movieItem";
 import { get } from "./moviesActions";
+import { moviesSelector } from "./moviesUtil";
 
 @connect(store => ({
-    movies: store.entities.movies
+    movies: moviesSelector(store)
 }))
 export default class MoviesPage extends Component {
     static propTypes = {
@@ -16,8 +17,7 @@ export default class MoviesPage extends Component {
         movies: PropTypes.array
     };
 
-    state: { textFiltered: string };
-    state = { textFiltered: "" };
+    state: { textFiltered: string } = { textFiltered: "" };
 
     constructor(props: {}, context: {}) {
         super(props, context);

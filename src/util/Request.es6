@@ -1,7 +1,7 @@
 // @flow
 import axios from "axios";
 import config from "../constants/config";
-import {Log} from "../services/index";
+import { Log } from "../services/index";
 
 export default class Request {
     endpoint: string;

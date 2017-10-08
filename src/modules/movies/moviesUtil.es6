@@ -1,14 +1,17 @@
 // @flow
 import { createSelector } from "reselect";
 
-let movies = state => state.entities.movies;
+let movies = store => store.entities.movies;
 
 export const moviesSelector = createSelector([movies], (list: [] = []) => {
-    return list.map((item, index) => {
+    return list.map(movie => {
+        const { id, title, description, image_large } = movie;
+
         return {
-            item,
-            index
+            id,
+            title,
+            description,
+            imageLarge: image_large
         };
     });
 });
-/**/
