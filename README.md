@@ -5,6 +5,10 @@
 Este proyecto tiene una integración React JS / Redux JS para fines de demostración en skills en las tecnologías utilizadas.
 La demostración la puedes consultar en el siguiente enlace [DEMO](http://prueba.crisostomo.soy)
 
+![Movie details](https://www.dropbox.com/s/hrel12tkg5jn39w/movie-details.png?dl=1 "Movie details")
+
+![Movie list](https://www.dropbox.com/s/xepwyt21zy4gul4/movies.png?dl=1 "Movie list")
+
 
 ## Instalar / clonar proyecto
 
@@ -43,7 +47,9 @@ https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeac
 
 La api tiene no inestables, es deicr, en ocasiones responden con error. Cuando notes que no recibes información sólo actualiza la página.
 
-## Construir proyecto en producción
+![Error cors](https://www.dropbox.com/s/gwg0n541bd7nyc8/cors.png?dl=1 "Error cors")
+
+## Construir y correr proyecto en producción
 
 Con el siguiente script ejecutamos el comando webpack para construir los recursos estaticos y levantamos un servidor web con Node JS / Expres JS
 ```shell
@@ -57,7 +63,13 @@ Cualquier cambio en código no será reflejado.
 El script npm genera una imagen docker lista para correr en contenedor en tu servidor.
 
 ```shell
-npm run docker
+$ npm run docker || docker run  -i -d -p 3000:3000 darcusfenix/prueba-tecnica
+```
+
+## Correr contenedor de imagen previa Docker
+
+```shell
+$ docker run  -i -d -p 3000:3000 darcusfenix/prueba-tecnica
 ```
 
 ## Testing
