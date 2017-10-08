@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+body {
+    background-color: #efefef;
+    overflow-x: hidden;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+/************** MOVIES PAGE ******************/
+.movies-page-container {
+    margin: 0;
+    padding: 0;
+}
+
+.movies-column {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.movies-gallery-container {
+    width: 100%;
+    height: 310px;
+    background-color: #000;
+    text-align: center;
+}
+
+.movies-gallery-container img {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+/************** FIN MOVIES PAGE ******************/
+
+/************** MOVIE DETAILS PAGE ******************/
+.movie-details-body {
+    position: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    background-size: 100% auto;
+}
+
+.movie-details-container {
+    margin-top: 150px;
+}
+
+.movie-details-title {
+    color: white;
+    font-size: 3em;
+}
+
+.movie-details-info {
+    color: white;
+    margin-top: 40px;
+    padding-left: 45px;
+}
+
+.movie-details-info p, .movie-details-info li {
+    font-size: 1.5em;
+}
+
+.movie-details-info li {
+    list-style: none;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+/************** MOVIE DETAILS PAGE ******************/
