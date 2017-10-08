@@ -5,9 +5,9 @@
 Este proyecto tiene una integración React JS / Redux JS para fines de demostración en skills en las tecnologías utilizadas.
 La demostración la puedes consultar en el siguiente enlace [DEMO](http://prueba.crisostomo.soy)
 
-![Movie details](https://www.dropbox.com/s/hrel12tkg5jn39w/movie-details.png?raw=1 "Movie details")
-
 ![Movie list](https://www.dropbox.com/s/xepwyt21zy4gul4/movies.png?raw=1 "Movie list")
+
+![Movie details](https://www.dropbox.com/s/hrel12tkg5jn39w/movie-details.png?raw=1 "Movie details")
 
 ## Instalar / clonar proyecto
 
@@ -46,7 +46,7 @@ https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeac
 
 La api tiene no inestables, es deicr, en ocasiones responden con error. Cuando notes que no recibes información sólo actualiza la página.
 
-![Error cors](https://www.dropbox.com/s/gwg0n541bd7nyc8/cors.png?dl=1 "Error cors")
+![Error cors](https://www.dropbox.com/s/gwg0n541bd7nyc8/cors.png?raw=1 "Error cors")
 
 ## Construir y correr proyecto en producción
 
