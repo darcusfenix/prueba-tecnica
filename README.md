@@ -5,9 +5,9 @@
 Este proyecto tiene una integración React JS / Redux JS para fines de demostración en skills en las tecnologías utilizadas.
 La demostración la puedes consultar en el siguiente enlace [DEMO](http://prueba.crisostomo.soy)
 
-![Movie details](https://www.dropbox.com/s/hrel12tkg5jn39w/movie-details.png?dl=3 "Movie details")
+![Movie details](https://www.dropbox.com/s/hrel12tkg5jn39w/movie-details.png?raw=1 "Movie details")
 
-![Movie list](https://www.dropbox.com/s/xepwyt21zy4gul4/movies.png?dl=3 "Movie list")
+![Movie list](https://www.dropbox.com/s/xepwyt21zy4gul4/movies.png?raw=1 "Movie list")
 
 ## Instalar / clonar proyecto
 
