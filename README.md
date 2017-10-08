@@ -7,8 +7,8 @@ La demostración la puedes consultar en el siguiente enlace [DEMO](http://prueba
 
 ![Movie details](https://www.dropbox.com/s/hrel12tkg5jn39w/movie-details.png?dl=1 "Movie details")
 
-![Movie list](https://www.dropbox.com/s/xepwyt21zy4gul4/movies.png?dl=1 "Movie list")
-
+![Movie list](https://www.dropbox.com/s/xepwyt21zy4gul4/movies.png?dl=2 "Movie list")
+![camo](https://cloud.githubusercontent.com/assets/38/24514552/88f29edc-1529-11e7-832f-6d2942144c87.gif)
 
 ## Instalar / clonar proyecto
 
