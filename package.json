@@ -10,6 +10,8 @@
     "start": "npm-run-all --parallel server",
     "build": "cross-env NODE_ENV=production webpack --env=prod --progress --profile --colors",
     "postbuild": "cross-env NODE_ENV=production PORT=3000 babel-node ./src/server.es6",
+    "docker-run": "docker run  -i -d -p 3000:3000 darcusfenix/prueba-tecnica",
+    "docker-build": "docker build -t darcusfenix/prueba-tecnica .",
     "flow": "flow --show-all-errors",
     "prettier": "prettier --tab-width 4 --write \"src/**/*.jsx\" \"src/**/*.es6\"",
     "eslint": "esw --ext .es6 --ext .jsx --color src tools --clear",

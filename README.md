@@ -1,101 +1,75 @@
 
 
 # Prueba técnica
-> Additional information or tag line
 
-A brief description of your project, what it is used for.
+Este proyecto tiene una integración React JS / Redux JS para fines de demostración en skills en las tecnologías utilizadas.
+La demostración las puedes consultar en el siguiente enlace [DEMO](http://prueba.crisostomo.soy)
 
-## Installing / Getting started
 
-A quick introduction of the minimal setup you need to get a hello world up &
-running.
+## Instalar / clonar proyecto
+
 
 ```shell
-$ npm install && npm start
+$ git clone https://github.com/darcusfenix/prueba-tecnica.git
 ```
 
-Here you should say what actually happens when you execute the code above.
+Una vez clonado el proyecto podrás acceder al directorio prueba-tecnica.
 
-## Developing
+## Continuar con desarrollo
 
-### Built With
-List main libraries, frameworks used including versions (React, Angular etc...)
-
-### Prerequisites
-What is needed to set up the dev environment. For instance, global dependencies or any other tools. include download links.
-
-
-### Setting up Dev
-
-Here's a brief intro about what a developer must do in order to start developing
-the project further:
 
 ```shell
-git clone https://github.com/your/your-project.git
-cd your-project/
-packagemanager install
+$ npm install && npm run start
 ```
 
-And state what happens step-by-step. If there is any virtual environment, local server or database feeder needed, explain here.
+La primer parte descarga las dependencias npm y finalmente inicia el proyecto en entorno desarrollo. 
+En este caso cualquier cambio de código se refleja al ser actualizado el navegador.
 
-### Building
+## Requisitos
 
-If your project needs some additional steps for the developer to build the
-project after some code changes, state them here. for example:
+Deberás tener instalado las siguientes versiones de librerías para ello.
+
+* Node JS / latest
+* NPM / latest
+* Git / latest
+
+
+## IMPORTANTE
+
+Los servicios están restringidos para realizar peticiones externas a su aplicación propia de Claro Video.
+Para ello y poder probar la aplicación debes instalar el siguiente plugin de el navegador Chrome.
+
+https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi
+
+## Construir proyecto en producción
+
+Con el siguiente script ejecutamos el comando webpack para construir los recursos estaticos y levantamos un servidor web con Node JS / Expres JS
+```shell
+$ npm run build
+```
+
+Cualquier cambio en código no será reflejado.
+
+## Construir proyecto en producción con Docker
+
+El script npm genera una imagen docker lista para correr en contenedor en tu servidor.
 
 ```shell
-./configure
-make
-make install
+npm run docker
 ```
 
-Here again you should state what actually happens when the code above gets
-executed.
+## Testing
 
-### Deploying / Publishing
-give instructions on how to build and release a new version
-In case there's some step you have to take that publishes this project to a
-server, this is the right time to state it.
+Ejecuta todos los archivos test que están en el proyecto.
 
 ```shell
-packagemanager deploy your-project -s server.com -u username -p password
+npm run test
 ```
 
-And again you'd need to tell what the previous code actually does.
+## Guias de estilo
 
-## Versioning
+Se respeta y exige las reglas de:
 
-We can maybe use [SemVer](http://semver.org/) for versioning. For the versions available, see the [link to tags on this repository](/tags).
-
-
-## Configuration
-
-Here you should write what are all of the configurations a user can enter when
-using the project.
-
-## Tests
-
-Describe and show how to run the tests with code examples.
-Explain what these tests test and why.
-
-```shell
-Give an example
-```
-
-## Style guide
-
-Explain your code style and show how to check it.
-
-## Api Reference
-
-If the api is external, link to api documentation. If not describe your api including authentication methods as well as explaining all the endpoints with their required parameters.
-
-
-## Database
-
-Explaining what database (and version) has been used. Provide download links.
-Documents your database design and schemas, relations etc... 
-
-## Licensing
-
-State what the license is and how to find the text version of the license.
+* eslint
+* flow
+* prettier
