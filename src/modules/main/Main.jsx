@@ -13,9 +13,7 @@ const theme = getMuiTheme();
 export default class Main extends Component {
     state: {
         pageProgress: boolean
-    };
-
-    state = { pageProgress: true };
+    } = { pageProgress: true };
 
     static propTypes = {
         children: PropTypes.node,
@@ -39,7 +37,7 @@ export default class Main extends Component {
             <MuiThemeProvider muiTheme={theme}>
                 <div>
                     {children}
-                    {pageProgress && "Cargando películas"}
+                    {pageProgress && "Cargando contenido"}
                 </div>
             </MuiThemeProvider>
         );

@@ -44,7 +44,7 @@ Para ello y poder probar la aplicación debes instalar el siguiente plugin de el
 
 https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi
 
-La api tiene no inestables, es deicr, en ocasiones responden con error. Cuando notes que no recibes información sólo actualiza la página.
+La api es inestable, es deicr, en ocasiones responden con error. Cuando notes que no recibes información sólo actualiza la página.
 
 ![Error cors](https://www.dropbox.com/s/gwg0n541bd7nyc8/cors.png?raw=1 "Error cors")
 
@@ -73,7 +73,7 @@ $ docker run  -i -d -p 3000:3000 darcusfenix/prueba-tecnica
 
 ## Testing
 
-Ejecuta todos los archivos test que están en el proyecto.
+Ejecuta todos los archivos test que están en el proyecto. Coming soon.
 
 ```shell
 npm run test
