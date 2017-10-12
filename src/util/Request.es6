@@ -18,7 +18,6 @@ export default class Request {
         this.endpoint = "";
         this.method = "GET";
         this.params = { ...config.paramsApi };
-        this.data = {};
         this.baseUrl = config.BASE_URL;
 
         this.instance = axios.create();

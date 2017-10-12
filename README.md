@@ -39,14 +39,7 @@ Deberás tener instalado las siguientes versiones de librerías para ello.
 
 ## IMPORTANTE
 
-Los servicios están restringidos para realizar peticiones externas a su aplicación propia de Claro Video.
-Para ello y poder probar la aplicación debes instalar el siguiente plugin de el navegador Chrome.
-
-https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi
-
 La api es inestable, es deicr, en ocasiones responden con error. Cuando notes que no recibes información sólo actualiza la página.
-
-![Error cors](https://www.dropbox.com/s/gwg0n541bd7nyc8/cors.png?raw=1 "Error cors")
 
 ## Construir y correr proyecto en producción
 
