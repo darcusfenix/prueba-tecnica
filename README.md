@@ -55,7 +55,7 @@ Cualquier cambio en código no será reflejado.
 El script npm genera una imagen docker lista para correr en contenedor en tu servidor.
 
 ```shell
-$ npm run docker || docker run  -i -d -p 3000:3000 darcusfenix/prueba-tecnica
+$ npm run docker-build || docker build -t darcusfenix/prueba-tecnica .
 ```
 
 ## Correr contenedor de imagen previa Docker
